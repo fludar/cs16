@@ -1,0 +1,1 @@
+start CS16Launcher.exe -steam -noforcemparms -noforcemaccel
