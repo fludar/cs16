@@ -1,0 +1,136 @@
+// quick file that maps steam app id to game info
+"ClientGameInfo"
+{
+	// steam app id's
+	"Apps"
+	{
+		// Condition Zero
+		"80"
+		{
+			"gamedir"	"czero"
+			"icon"		"steam/games/icon_cz"
+			"icon2"		"steam/games/icon_cz_dull"
+			"primarycache" 	"81"	// Base Condition Zero Content
+			"dependantOnApp" "10" // Counter-Strike
+			"developer"		"Valve"
+			"homepage"		"http://www.cs-conditionzero.com/"
+			"sellpage"		"#SteamUI_CZ_SellPage"
+			"initialsellpage"	"#SteamUI_CZ_InitialPage"
+			"preloadsellpage"	"#SteamUI_CZ_PreloadPage"
+			"releasedpage"	"#SteamUI_CZ_ReleasedPage"
+			"serverbrowsername"		"Condition Zero"
+		}
+		// Condition Zero Deleted Scenes
+		"100"
+		{
+			"gamedir"	"czeror"
+			"icon"		"steam/games/icon_cz"
+			"icon2"		"steam/games/icon_cz_dull"
+			"primarycache" "101"	// itself
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Ritual"
+			"homepage"		"http://www.cs-conditionzero.com/"
+			"NoServers" 	"1"
+			"VisibleOnlyWhenSubscribed"	"1"
+			// This is an example for when we want to have beta apps that people can't buy yet
+			// Deleted Scenes doesn't really need a special reason, since it will never occur
+
+			"PurchaseDisabledReason"	"#Steam_CZDeletedScenesMustBeBoughtWithCZ"
+		}
+		// counter-strike
+		"10"
+		{
+			"gamedir"	"cstrike"
+			"icon"		"steam/games/icon_cs"
+			"icon2"		"steam/games/icon_cs_dull"
+			"primarycache" "11"	// counter-strike base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Valve"
+			"homepage"		"http://www.counter-strike.net/"
+			"serverbrowsername"		"Counter-Strike"
+		}
+		// Day of Defeat
+		"30"
+		{
+			"gamedir"	"dod"
+			"icon"		"steam/games/icon_dod"
+			"icon2"		"steam/games/icon_dod_dull"
+			"primarycache" "31"	// DoD base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Valve"
+			"homepage"		"http://dayofdefeatmod.com/"
+			"serverbrowsername"		"Day of Defeat"
+		}
+		// Team Fortress Classic
+		"20"
+		{
+			"gamedir"	"tfc"
+			"icon"		"steam/games/icon_tfc"
+			"icon2"		"steam/games/icon_tfc_dull"
+			"primarycache" "21"	// TFC base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Valve"
+			"homepage"		"http://www.steampowered.com/"
+			"gamedir"	"tfc"
+			"serverbrowsername"		"Team Fortress Classic"
+		}
+		// Deathmatch Classic
+		"40"
+		{
+			"gamedir"	"dmc"
+			"icon"		"steam/games/icon_dmc"
+			"icon2"		"steam/games/icon_dmc_dull"
+			"primarycache" "41"	// DMC base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Valve"
+			"homepage"		"http://www.steampowered.com/"
+			"serverbrowsername"		"Deathmatch Classic"
+		}
+		// Opposing Force
+		"50"
+		{
+			"gamedir"	"gearbox"
+			"icon"		"steam/games/icon_opfor"
+			"icon2"		"steam/games/icon_opfor_dull"
+			"primarycache" "51"	// OpFor base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Gearbox"
+			"homepage"		"http://www.gearboxsoftware.com/"
+			"serverbrowsername"		"Opposing Force"
+		}
+		// Ricochet
+		"60"
+		{
+			"gamedir"	"ricochet"
+			"icon"		"steam/games/icon_ric"
+			"icon2"		"steam/games/icon_ric_dull"
+			"primarycache" "61"	// Ricochet base content
+			"dependantOnApp" "70" // Half-Life
+			"developer"		"Valve"
+			"homepage"		"http://www.steampowered.com/"
+			"serverbrowsername"		"Ricochet"
+		}
+		// Half-Life
+		"70"
+		{
+			"gamedir"	"valve"
+			"icon"		"steam/games/icon_hl"
+			"icon2"		"steam/games/icon_hl_dull"
+			"primarycache" "1"	// Base Goldsrc Shared Content
+			"developer"		"Valve"
+			"homepage"		"http://www.steampowered.com/"
+			"serverbrowsername"		"Half-Life"
+		}
+		// Half-Life Dedicated Server
+		"5"
+		{
+			"gamedir"	"valve"
+			"icon"		"steam/games/icon_dedicated"
+			"icon2"		"steam/games/icon_dedicated_dull"
+			"NoServers" "1"		// this is not a game that shows up in the server browser you don't play dedicated server, you join them
+			"primarycache" "5"	// primary cache is itself for hlds
+			"developer"		"Valve"
+			"homepage"		"http://www.steampowered.com/"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"SteamUIConfig"
+{
+	"VersionURL" "http://www.steampowered.com/platform/update_history/"
+	"UpdateNewsURL" "http://www.steampowered.com/platform/update_history/"
+	"SteamNewsURL"  "http://www.steampowered.com/?area=news"
+}

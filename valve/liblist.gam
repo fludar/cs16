@@ -1,0 +1,10 @@
+// Valve Game Info file
+//  These are key/value pairs.  Certain mods will use different settings.
+//
+game "Half-Life"
+startmap "c0a0"
+trainmap "t0a0"
+mpentity "info_player_deathmatch"
+gamedll "addons\metamod\dlls\metamod.dll"
+secure "1"
+

@@ -1,0 +1,36 @@
+"Admin\ServerConfigPanel.res"
+{
+	"RulesList"
+	{
+		"ControlName"		"ListPanel"
+		"fieldName"		"RulesList"
+		"xpos"		"20"
+		"ypos"		"12"
+		"wide"		"480"
+		"tall"		"270"
+		"autoResize"		"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+	}
+	"EditButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"EditButton"
+		"xpos"		"19"
+		"ypos"		"293"
+		"wide"		"72"
+		"tall"		"24"
+		"autoResize"		"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"0"
+		"tabPosition"		"2"
+		"labelText"		"Edit..."
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"Default"		"1"
+	}
+}
