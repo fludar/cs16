@@ -5,4 +5,4 @@ cs 1.6 unarchived from installer for non admin users
 #
 LOLOLOLOLOL
 
-[DOWNLOAD from cs16.688.org](cs16.688.org)
+[DOWNLOAD from cs16.688.org](https://cs16.688.org)
